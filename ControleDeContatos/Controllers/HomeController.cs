@@ -1,12 +1,15 @@
+using ControleDeContatos.Filters;
+using ControleDeContatos.Helper;
 using ControleDeContatos.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace ControleDeContatos.Controllers
 {
+    [PaginaParaUsuarioLogado]
     public class HomeController : Controller
     {
-
+        
         public IActionResult Index()
         {
             return View();

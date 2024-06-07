@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|c:\\users\\loren\\onedrive\\documentos\\www\\controledecontatos\\controledecontatos\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|solutionrelative:controledecontatos\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|c:\\users\\loren\\onedrive\\documentos\\www\\controledecontatos\\controledecontatos\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|solutionrelative:controledecontatos\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|c:\\users\\loren\\onedrive\\documentos\\www\\controledecontatos\\controledecontatos\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|solutionrelative:controledecontatos\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|c:\\users\\loren\\onedrive\\documentos\\www\\controledecontatos\\controledecontatos\\repositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|solutionrelative:controledecontatos\\repositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|c:\\users\\loren\\onedrive\\documentos\\www\\controledecontatos\\controledecontatos\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|solutionrelative:controledecontatos\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|c:\\users\\loren\\onedrive\\documentos\\www\\controledecontatos\\controledecontatos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|solutionrelative:controledecontatos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioModel.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Models\\UsuarioModel.cs",
-              "RelativeDocumentMoniker": "ControleDeContatos\\Models\\UsuarioModel.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Models\\UsuarioModel.cs",
-              "RelativeToolTip": "ControleDeContatos\\Models\\UsuarioModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T03:15:34.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Repositorio\\UsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "ControleDeContatos\\Repositorio\\UsuarioRepositorio.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Repositorio\\UsuarioRepositorio.cs",
-              "RelativeToolTip": "ControleDeContatos\\Repositorio\\UsuarioRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T03:08:46.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUsuarioRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Repositorio\\IUsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "ControleDeContatos\\Repositorio\\IUsuarioRepositorio.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Repositorio\\IUsuarioRepositorio.cs",
-              "RelativeToolTip": "ControleDeContatos\\Repositorio\\IUsuarioRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T03:08:11.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "ControleDeContatos\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "ControleDeContatos\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T02:51:40.224Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "ControleDeContatos\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "ControleDeContatos\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA+AAAA",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "ControleDeContatos\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "ControleDeContatos\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:43:37.729Z",
+              "WhenOpened": "2024-06-07T19:10:21.991Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
