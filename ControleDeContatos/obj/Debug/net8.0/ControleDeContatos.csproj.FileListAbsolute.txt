@@ -866,6 +866,7 @@ C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj
 C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\ControleDeContatos.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\ControleDeContatos.RazorAssemblyInfo.cache
 C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\ControleDeContatos.RazorAssemblyInfo.cs
+C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\ControleDeContatos.sourcelink.json
 C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\staticwebassets\msbuild.ControleDeContatos.Microsoft.AspNetCore.StaticWebAssets.props
@@ -882,3 +883,4 @@ C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj
 C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\ControleDeContatos.pdb
 C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\ControleDeContatos.genruntimeconfig.cache
 C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\ref\ControleDeContatos.dll
+C:\Users\loren\OneDrive\Documentos\www\ControleDeContatos\ControleDeContatos\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css

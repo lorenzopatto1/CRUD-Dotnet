@@ -1,0 +1,46 @@
+﻿@using ControleDeContatos.Enums
+@model UsuarioModel
+@{
+    ViewData["Title"] = "Criar usuário";
+}
+
+<div class="text-center">
+    <p>Cadastrar usuário</p>
+</div>
+
+<form asp-controller="Usuario" asp-action="Criar" method="post">
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control" id="nome" placeholder="Digite o seu nome">
+        @Html.ValidationMessageFor(error => error.Nome)
+    </div>
+    <div class="form-group">
+        <label for="login">Login</label>
+        <input type="text" asp-for="Login" class="form-control" id="login" placeholder="Digite seu login">
+        @Html.ValidationMessageFor(error => error.Nome)
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" asp-for="Email" class="form-control" id="email" placeholder="Coloque seu email">
+        @Html.ValidationMessageFor(error => error.Email)
+    </div>
+    <div class="form-group">
+        <label for="perfil">Perfil:</label>
+        <br >
+        <select class="form-control" asp-for="Perfil" id="perfil">
+            <option value="">Selecione</option>
+            <option value="@PerfilEnum.Admin">Administrador</option>
+            <option value="@PerfilEnum.Padrao">Padrão</option>
+        </select>
+        @Html.ValidationMessageFor(error => error.Perfil)
+    </div>
+    <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" asp-for="Senha" class="form-control" id="senha" placeholder="Coloque sua senha">
+        @Html.ValidationMessageFor(error => error.Senha)
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary btn-block">Adicionar</button>
+    <br />
+    <a class="btn btn-secondary btn-block" asp-controller="Usuario" asp-action="Index" role="button">Voltar</a>
+</form>

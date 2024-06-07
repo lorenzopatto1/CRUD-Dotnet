@@ -1,7 +1,6 @@
 ﻿using ControleDeContatos.Models;
 using ControleDeContatos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ControleDeContatos.Controllers
 {
@@ -25,13 +24,13 @@ namespace ControleDeContatos.Controllers
 
         public IActionResult Editar(int id)
         {
-            ContatoModel contato = _contatoRepositorio.ListarPorId(id);
+            ContatoModel contato = _contatoRepositorio.BuscarPorId(id);
             return View(contato);
         }
 
         public IActionResult ApagarConfirmacao(int id)
         {
-            ContatoModel contato = _contatoRepositorio.ListarPorId(id);
+            ContatoModel contato = _contatoRepositorio.BuscarPorId(id);
             return View(contato);
         }
 
@@ -65,7 +64,7 @@ namespace ControleDeContatos.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    _contatoRepositorio.Adicionar(contato);
+                    contato = _contatoRepositorio.Adicionar(contato);
                     TempData["MensagemSucesso"] = "Contato cadastrado com sucesso!";
                     return RedirectToAction("Index");
                 }
@@ -85,7 +84,7 @@ namespace ControleDeContatos.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    _contatoRepositorio.Atualizar(contato);
+                    contato = _contatoRepositorio.Atualizar(contato);
                     TempData["MensagemSucesso"] = "Informações do contato alterado com sucesso!";
                     return RedirectToAction("Index");
                 }

@@ -5,7 +5,7 @@
     <div class="text-center">
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="Criar">Adicionar novo contato</a>
+        <a class="btn btn-primary btn-block" role="button" asp-controller="Contato" asp-action="Criar">Adicionar novo contato</a>
     </div>
 
     <br />
@@ -30,7 +30,7 @@
 
     <h1 class="display-4">Listagem de Contatos</h1>
 
-    <table class="table">
+    <table class="table" id="table-contatos">
         <thead>
             <tr>
                 <th scope="col">#</th>
@@ -53,11 +53,16 @@
                         <td>
                             <div class="btn-group" role="group">
                                 <a role="button" class="btn btn-primary" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="Editar">Editar</a>
+                                <br />
                                 <a role="button" class="btn btn-danger" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="ApagarConfirmacao">Apagar</a>
                             </div>
                         </td>
                     </tr>
                 }
+            }
+            else
+            {
+                <tr class="odd"><td valign="top" colspan="5">Nenhum contato encontrado</td></tr>
             }
         </tbody>
     </table>
