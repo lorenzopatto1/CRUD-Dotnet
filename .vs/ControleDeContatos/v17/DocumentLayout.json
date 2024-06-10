@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|c:\\users\\loren\\onedrive\\documentos\\www\\controledecontatos\\controledecontatos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|solutionrelative:controledecontatos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|c:\\users\\loren\\onedrive\\documentos\\www\\controledecontatos\\controledecontatos\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|solutionrelative:controledecontatos\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|c:\\users\\loren\\onedrive\\documentos\\www\\controledecontatos\\controledecontatos\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B6C2337-3FB0-46C8-BDFB-AFEBF822852D}|ControleDeContatos\\ControleDeContatos.csproj|solutionrelative:controledecontatos\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "ControleDeContatos\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "ControleDeContatos\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T19:10:21.991Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ControleDeContatos\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ControleDeContatos\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-10T15:53:06.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControleDeContatos\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Documentos\\www\\ControleDeContatos\\ControleDeContatos\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "ControleDeContatos\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAowDkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T15:34:31.323Z",
+              "EditorCaption": ""
             }
           ]
         }

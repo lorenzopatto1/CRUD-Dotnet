@@ -1,4 +1,5 @@
 ﻿using ControleDeContatos.Enums;
+using ControleDeContatos.Helper;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
@@ -20,10 +21,28 @@ namespace ControleDeContatos.Models
         public string Senha { get; set; }
         public DateTime DataCadastro { get; set; }
         public DateTime? DataCadastroAlterado { get; set; }
+        public virtual List<ContatoModel> Contatos { get; set; }
 
         public Boolean SenhaValida(string senha)
         {
-            return senha == Senha;
+            return Senha == senha.GerarHash();
+        }
+
+        public void SetSenhaHash()
+        {
+            Senha = Senha.GerarHash();
+        }
+
+        public void SetNovaSenha(string novaSenha)
+        {
+            Senha = novaSenha.GerarHash();
+        }
+
+        public string GerarNovaSenha()
+        {
+            string novaSenha = Guid.NewGuid().ToString().Substring(0, 8);
+            Senha = novaSenha.GerarHash();
+            return novaSenha;
         }
     }
 }

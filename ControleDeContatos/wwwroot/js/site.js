@@ -3,7 +3,13 @@
 
 // Write your JavaScript code.
 
-const tableQuery = (id) => {
+$(document).ready(function () {
+    getDataTable('#table-contatos')
+    getDataTable('#table-usuarios')
+    });
+})
+
+function getDataTable (id) {
     $(id).DataTable({
         "ordering": true,
         "paging": true,
@@ -32,8 +38,6 @@ const tableQuery = (id) => {
     });
 }
 
-tableQuery('#table-contatos')
-tableQuery('#table-usuarios')
 
 $('.close-alert').click(() => {
     $('.alert').hide('hide');

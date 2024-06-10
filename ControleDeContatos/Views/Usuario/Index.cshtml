@@ -38,6 +38,7 @@
                 <th scope="col">Login</th>
                 <th scope="col">Email</th>
                 <th scope="col">Perfil</th>
+                <th scope="col">Total de Contatos</th>
                 <th scope="col">Data de cadastro</th>
                 <th scope="col">Data de Alteração</th>
                 <th scope="col"></th>
@@ -49,11 +50,14 @@
                 foreach(UsuarioModel usuario in Model)
                 {
                     <tr>
-                        <th scope="row">@usuario.Id</th>
+                        <th class="text-center" scope="row">@usuario.Id</th>
                         <td>@usuario.Nome</td>
                         <td>@usuario.Login</td>
                         <td>@usuario.Email</td>
                         <td>@(usuario.Perfil == ControleDeContatos.Enums.PerfilEnum.Admin ? "Administrador" : "Padrão")</td>
+                        <td class="text-center">
+                                @(usuario.Contatos != null && usuario.Contatos.Any() ? usuario.Contatos.Count : 0)
+                        </td>
                         <td>@usuario.DataCadastro</td>
                         <td>@usuario.DataCadastroAlterado</td>
                         <td>

@@ -41,7 +41,7 @@
             </tr>
         </thead>
         <tbody>
-            @if(Model != null && Model.Any())
+            @if(Model != null && Model.Any() && Model.Count != 0)
             {
                 foreach(ContatoModel contato in Model)
                 {
